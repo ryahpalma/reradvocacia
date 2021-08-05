@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+// Colors
+$primary: #0edba8;
+$info: #209cee;
+$success: #08c048;
+$warning: #f0b000;
+$danger: #c13739;
+$light: #f3f3f3;
+$dark: #545454;
+$black: #000000;
+
+// Text Colors
+$text: #4a4a4a;
+$link: #1a6fff;
+$body-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+$family-sans-serif: "Oswald", sans-serif;
+$family-primary: "Oswald", sans-serif;
+$family-secondary: "Manrope", sans-serif;
+
+// Define custom variables
+$backgrounds: (
+    activity: "../img/content/bg-hero-activity.jpg",
+    contact: "../img/content/bg-hero-contact.jpg",
+    index: "../img/content/bg-hero-index.jpg"
+);
+
+// Custom stylesheet navbar
+a.navbar-burger.burger span {
+    height: 2px;
+}
+a.navbar-item img {
+    max-height: 1.9rem;
+}
+.navbar-item {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+a.logo:hover,
+a.logo:focus,
+a.logo {
+    background-color: transparent !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar.is-spaced {
+        padding: 0.7rem 1rem !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .navbar-link.is-active,
+    .navbar-link:focus,
+    .navbar-link:focus-within,
+    a.navbar-item.is-active,
+    a.navbar-item:focus,
+    a.navbar-item:focus-within,
+    a.navbar-item:hover,
+    a.navbar-link:hover {
+        color: $danger !important;
+    }
+}
+
+// Custom stylesheet footer
+
+.FooterComponent__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.FooterComponent__container > div {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.FooterComponent__container .brand {
+    margin-bottom: 9px;
+}
+.FooterComponent__container .brand img {
+    display: block;
+    height: 35px;
+    filter: invert(50%);
+}
+.FooterComponent__container .developer img {
+    display: block;
+    height: 37px;
+}
+.FooterComponent__container .social {
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+.FooterComponent__container .description {
+    margin: 6px 0 0 12px;
+}
+.FooterComponent__container .links a {
+    position: relative;
+    top: 24px;
+}
+.FooterComponent__container .modal-card-body {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.FooterComponent__container .card-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.FooterComponent__container .social a,
+.FooterComponent__container .links a {
+    color: $dark;
+}
+.FooterComponent__container .social a:hover,
+.FooterComponent__container .links a:hover {
+    opacity: 0.8;
+}
+.FooterComponent__container .social a:not(:first-of-type),
+.FooterComponent__container .links a:not(:first-of-type) {
+    margin-left: 20px;
+}
+@media screen and (min-width: 769px) {
+    .FooterComponent__container > div {
+        flex: 50%;
+    }
+    .FooterComponent__container .left {
+        justify-content: flex-start;
+    }
+    .FooterComponent__container .right {
+        justify-content: flex-end;
+    }
+    .FooterComponent__container .links,
+    .FooterComponent__container .copyright,
+    .FooterComponent__container .social,
+    .FooterComponent__container .brand,
+    .FooterComponent__container .description {
+        align-items: center !important;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .FooterComponent__container .links,
+    .FooterComponent__container .copyright {
+        text-align: center !important;
+    }
+}
+
+// Custom CSS
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.page-content {
+    flex: 1;
+}
+.is-clickable {
+    cursor: pointer;
+}
+.box-border {
+    border-style: solid;
+    border-width: thin;
+    border-color: $light;
+}
+.carousel-cell {
+    width: 80%;
+    height: 550px;
+    margin-right: 10px;
+}
+.flickity-page-dots {
+    bottom: 5px;
+}
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+    background: white;
+}
+.is-borderless {
+    border-radius: 0 !important;
+}
+.is-paddingless-bottom {
+    padding-bottom: 1px !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .subtitle-activity {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .fly-about {
+        position: relative;
+        top: 5rem;
+    }
+}
+
+// Define background
+@each $key, $image in $backgrounds {
+    .hero-#{$key} {
+        @extend .hero;
+        background-image: url("#{$image}");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+// Import Fonts
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap";
+
+// Import Bulma
+@import "~bulma/bulma";
+
+// Import Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// Import Divider
+@import "divider";
