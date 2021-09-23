@@ -52,26 +52,33 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="column is-12">
-                            <h1 class="title is-size-5 has-text-white has-text-centered is-size-5-mobile">
-                                PRAÇA JOSÉ REBELLO DA CUNHA,
-                                48,
-                                SALA 06, SUMARÉ
-                                CARAGUATATUBA/SP<br>
-                                <span>
+                        <h1 class="title is-size-6 has-text-white has-text-centered is-size-5-mobile">
+                            <div class="columns">
+                                <div class="column">
+                                    PRAÇA JOSÉ REBELLO DA CUNHA, 48, SALA 06, SUMARÉ - CARAGUATATUBA/SP
+                                </div>
+                                <div class="column">
                                     <span class="icon is-medium">
                                         <i class="fas fa-md fa-envelope"></i>
                                     </span>
                                     contato@reradvocacia.com
-                                </span>
-                                <span>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column">
                                     <span class="icon is-medium">
                                         <i class="fas fa-md fa-phone-alt"></i>
                                     </span>
-                                    3883-2803
-                                </span>
-                            </h1>
-                        </div>
+                                    (12) 3883-2803
+                                </div>
+                                <div class="column">
+                                    <span class="icon is-medium">
+                                        <i class="fas fa-md fa-phone-alt"></i>
+                                    </span>
+                                    (12) 98226-2436
+                                </div>
+                            </div>
+                        </h1>
                     </div>
                 </div>
             </div>
