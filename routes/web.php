@@ -21,7 +21,6 @@ Route::get('/atividades/areas-de-atuacao', [MainController::class, 'activity']);
 Route::get('/contato', [MainController::class, 'contact']);
 Route::get('/privacidade', [MainController::class, 'privacy']);
 Route::get('/sobre', [MainController::class, 'about']);
-Route::get('/sendemail', [SendEmailController::class, 'view']);
 Route::get('/links', [MainController::class, 'link']);
 Route::get('/aplicativo', [MainController::class, 'app']);
 

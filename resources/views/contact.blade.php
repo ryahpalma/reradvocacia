@@ -85,6 +85,12 @@
             <div class="column is-5">
                 <form method="post" action="{{ url('api/sendemail') }}">
                     @csrf
+                    <div class="field is-hidden">
+                        <label class="label is-size-5">Título</label>
+                        <div class="control">
+                            <input class="input" type="text" name="title">
+                        </div>
+                    </div>
                     <div class="field">
                         <label class="label is-size-5">Seu Nome</label>
                         <div class="control">
@@ -103,17 +109,15 @@
                             <textarea class="textarea has-fixed-size" type="text" name="message" required></textarea>
                         </div>
                     </div>
-
                     <div class="field">
                         <div class="control">
-                            @if($message = Session::get('success'))
-                                <a href="/contato" class="button is-size-5 is-size-6-mobile is-success is-fullwidth">
-                                    {{ $message }}
-                                </a>
+                            @if(Session::get('status'))
+                                <button class="button is-size-5 is-size-6-mobile is-danger is-fullwidth" disabled>
+                                    {{ Session::get('status') }}
+                                </button>
                             @else
-                                <button type="submit" name="submit"
-                                    class="button is-size-5 is-size-6-mobile is-danger is-fullwidth">Enviar
-                                    Mensagem
+                                <button type="submit" name="submit" class="button is-size-5 is-size-6-mobile is-danger is-fullwidth">
+                                    Enviar Mensagem
                                 </button>
                             @endif
                         </div>

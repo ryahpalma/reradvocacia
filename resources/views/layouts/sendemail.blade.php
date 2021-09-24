@@ -92,8 +92,8 @@
         }
 
         h1 {
-            font-size: 35px;
-            font-weight: 300;
+            font-size: 30px;
+            font-weight: 700;
             text-align: center;
             text-transform: capitalize;
         }
@@ -172,7 +172,7 @@
         hr {
             border: 0;
             border-bottom: 1px solid #f6f6f6;
-            Margin: 20px 0;
+            margin: 20px 0;
         }
 
         @media only screen and (max-width: 620px) {
@@ -242,8 +242,11 @@
                                     <tr>
                                         <td>
                                             <h1>Você recebeu uma mensagem</h1>
-                                            <h2>{{ $data['name'] }}<span>
-                                                    <p>{{ $data['email'] }}</p><span></h2>
+                                            <h2>{{ $data['name'] }}
+                                                <span>
+                                                    <p>{{ $data['email'] }}</p>
+                                                <span>
+                                            </h2>
                                             <p>{{ $data['message'] }}.</p>
                                             <p>Seu cliente está esperando seu retorno!</p>
                                         </td>
@@ -256,7 +259,7 @@
                         <table border="0" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td class="content-block powered-by">
-                                    Created by <a href="https://github.com/ryahpalma">Ryan</a>.
+                                    <a href="https://github.com/ryahpalma">Feito por Ryan</a>
                                 </td>
                             </tr>
                         </table>
