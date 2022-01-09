@@ -60,30 +60,35 @@
                 <div class="column is-6">
                     <h1 class="title">Política de Cookies</h1>
                     <p class="subtitle is-size-6">
-                        Como é prática comum em quase todos os sites profissionais, este site
-                        usa cookies, que são
-                        pequenos arquivos baixados
-                        no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles
-                        coletam, como as
-                        usamos e por que às vezes precisamos armazenar esses cookies. Você pode optar por impedir que
-                        esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos
-                        elementos da
+                        Usamos cookies para aprender como você interage com o nosso 
+                        conteúdo e para melhorar sua experiência ao visitar o nosso 
+                        website. Por exemplo, alguns cookies lembram o seu idioma ou 
+                        preferências para que você não tenha que efetuar estas escolhas 
+                        repetidamente sempre que visitar um dos nossos websites. Também 
+                        usamos cookies para ajudar com rastreamento de geolocalização. 
+                        Podemos empregar o que aprendemos  sobre o seu comportamento no 
+                        nosso website  para oferecer anúncios direcionados em website de 
+                        terceiros em um esforço para “reapresentar” nossos produtos e 
+                        serviços para você.
+                    </p>
+                    <p class="subtitle is-size-6">
+                        Como é prática comum em quase todos os sites profissionais, este 
+                        site usa cookies, que são pequenos arquivos baixados no seu 
+                        computador, para melhorar sua experiência. Esta página descreve 
+                        quais informações eles coletam, como as usamos e por que às 
+                        vezes precisamos armazenar esses cookies. Você pode optar por 
+                        impedir que esses cookies sejam armazenados, no entanto, isso 
+                        pode fazer o downgrade ou 'quebrar' certos elementos da 
                         funcionalidade do site.
                     </p>
-                    <h3 class="title is-size-6">Como usamos os cookies?</h3>
                     <p class="subtitle is-size-6">
-                        Utilizamos cookies por vários motivos.
-                        Infelizmente, na maioria dos casos, não
-                        existem opções
-                        padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os
-                        recursos que eles
-                        adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se
-                        precisa ou não deles,
-                        caso sejam usados ​​para fornecer um serviço que você usa.
+                        Utilizamos cookies por vários motivos. Infelizmente, na maioria 
+                        dos casos, não existem opções padrão do setor para desativar 
+                        os cookies sem desativar completamente a funcionalidade e os 
+                        recursos que eles adicionam a este site. É recomendável que 
+                        você deixe todos os cookies se não tiver certeza se precisa 
+                        ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.
                     </p>
-                    <figure>
-                        <img src="img/content/privacy-law.webp" alt="">
-                    </figure>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@
 </head>
 
 <body class="main">
-    <nav class="navbar is-danger is-family-primary has-text-weight-bold is-spaced" role="navigation"
+    <nav class="navbar is-danger is-family-primary has-text-weight-regular is-spaced" role="navigation"
         aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item logo" href="/">
@@ -78,7 +78,7 @@
     </div>
 
     <footer
-        class="FooterComponent__container has-background-light is-widescreen is-family-primary has-text-weight-medium has-text-dark px-6 py-5">
+        class="FooterComponent__container has-background-light is-widescreen is-family-primary has-text-weight-regular has-text-dark px-6 py-5">
         <div class="brand left is-hidden-mobile">
             <span>
                 <img class="logo" src="{{ asset('img/engine/logo.svg') }}" alt="Logo">

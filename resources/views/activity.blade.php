@@ -4,14 +4,13 @@
 
 <section class="hero-activity is-medium is-danger">
     <div class="hero-body">
-        <div class="container is-widescreen has-text-centered">
+        <div class="container is-widescreen has-text-centered ">
             <h1 class="title is-size-2 is-uppercase is-family-secondary has-text-weight-bold mb-6">
                 Áreas de Atuação
             </h1>
-            <h2 class="subtitle subtitle-activity is-family-primary has-text-weight-light">
-                Atuamos em diversas áreas do Direito realizando audiências, acompanhamentos processuais e
-                procedimentos
-                jurídicos ou administrativos para empresas ou pessoas físicas que necessitam de diligências.
+            <h2 class="subtitle is-family-primary has-text-weight-light is-max-width-lg is-centered">
+                Atuamos em diversas áreas do Direito realizando audiências, acompanhamentos processuais e 
+                procedimentos jurídicos ou administrativos para empresas ou pessoas físicas que necessitam de diligências.
             </h2>
         </div>
     </div>

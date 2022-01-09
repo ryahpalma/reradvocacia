@@ -136,7 +136,6 @@ a.logo {
         align-items: center !important;
     }
 }
-
 @media screen and (max-width: 769px) {
     .FooterComponent__container .links,
     .FooterComponent__container .copyright {
@@ -158,17 +157,17 @@ a.logo {
     cursor: pointer;
 }
 .box-border {
-    border-style: solid;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     border-width: thin;
     border-color: $light;
 }
 .carousel-cell {
-    width: 80%;
-    height: 550px;
-    margin-right: 10px;
+    width: 80%; 
+    margin-right: 15px;
 }
 .flickity-page-dots {
-    bottom: 5px;
+    bottom: 15px;
 }
 .flickity-page-dots .dot {
     width: 12px;
@@ -186,12 +185,14 @@ a.logo {
 .is-paddingless-bottom {
     padding-bottom: 1px !important;
 }
+.is-max-width-lg {
+    max-width: 77ch;
+}
+.is-centered {
+    margin: 0 auto;
+}
 
 @media screen and (min-width: 1024px) {
-    .subtitle-activity {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
     .fly-about {
         position: relative;
         top: 5rem;
@@ -211,7 +212,7 @@ a.logo {
 
 // Import Fonts
 @import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap";
 
 // Import Bulma
 @import "~bulma/bulma";
