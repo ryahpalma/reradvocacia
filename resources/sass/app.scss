@@ -145,6 +145,10 @@ a.logo {
 
 // Custom CSS
 
+html,body {
+    overflow-x:hidden;
+}
+
 .main {
     display: flex;
     min-height: 100vh;
@@ -191,6 +195,7 @@ a.logo {
 .is-centered {
     margin: 0 auto;
 }
+
 
 @media screen and (min-width: 1024px) {
     .fly-about {

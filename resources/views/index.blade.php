@@ -214,15 +214,17 @@
     </div>
 </section>
 <section class="hero is-small is-white">
-    <div class="container is-fullhd mb-5">
-        <div class="columns box-border px-6 py-6">
-            @foreach(array_slice($items, 0, 3) as $item)
-            <div class="column">
-                <p><small>{{ $item->get_date('j/m/Y') }}</p></small>
-                <a class="title is-size-5 has-text-black" target="_blank" rel="noopener noreferrer"
-                    href="{{ $item->get_permalink() }}">{{ $item->get_title() }}</a>
+    <div class="hero-body">
+        <div class="container mb-5">
+            <div class="columns box-border px-5 py-5">
+                @foreach(array_slice($items, 0, 3) as $item)
+                <div class="column">
+                    <p><small>{{ $item->get_date('j/m/Y') }}</p></small>
+                    <a class="title is-size-5 has-text-black" target="_blank" rel="noopener noreferrer"
+                        href="{{ $item->get_permalink() }}">{{ $item->get_title() }}</a>
+                </div>
+                @endforeach
             </div>
-            @endforeach
         </div>
     </div>
 </section>
