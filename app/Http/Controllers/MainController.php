@@ -18,12 +18,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Soluções Jurídicas em Caraguatatuba');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         $feed = FeedsFacade::make('http://feeds.feedburner.com/Stj-JurisprudenciaEmTeses?format=xml');
         $data = array(
@@ -72,12 +72,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Áreas de Atuação');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/areas-de-atuacao');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/areas-de-atuacao');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('activity');
     }
@@ -91,12 +91,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Contato');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/contato');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/contato');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('contact');
     }
@@ -110,12 +110,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Privacidade');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/privacidade');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/privacidade');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('privacy');
     }
@@ -129,12 +129,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Sobre');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/sobre');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/sobre');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('about');
     }
@@ -148,12 +148,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Links Úteis');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/links');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/links');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('link');
     }
@@ -167,12 +167,12 @@ class MainController extends Controller
     {
         SEOTools::setTitle('Aplicativos');
         SEOTools::setDescription('Escritório de Advocacia na Rua José Rebello da Cunha, Caraguatatuba. Especialistas em Direto Previdenciario. Ambiental, Criminal, Cível, Trabalhista, Tributário.');
-        SEOTools::opengraph()->setUrl('https://reradvocacia.com/app');
-        SEOTools::setCanonical('https://reradvocacia.com');
+        SEOTools::opengraph()->setUrl('https://www.reradvocacia.com/app');
+        SEOTools::setCanonical('https://www.reradvocacia.com');
         SEOTools::opengraph()->addProperty('type', 'articles');
-        SEOTools::jsonLd()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
-        SEOTools::opengraph()->addImage('https://reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
+        SEOTools::jsonLd()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg');
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
+        SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
         return view('app');
     }

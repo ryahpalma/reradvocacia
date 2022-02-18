@@ -27,6 +27,6 @@ Route::get('/aplicativo', [MainController::class, 'app']);
 Route::post('/api/sendemail', [SendEmailController::class, 'send']);
 
 Route::get('/sitemap', function () {
-    SitemapGenerator::create('https://reradvocacia.com')->writeToFile('sitemap.xml');
+    SitemapGenerator::create('https://www.reradvocacia.com')->writeToFile('sitemap.xml');
     return 'Sitemap gerado com sucesso';
 });
