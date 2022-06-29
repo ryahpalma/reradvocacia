@@ -25,12 +25,13 @@ class MainController extends Controller
         SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-mobile.jpg', ['height' => 1200, 'width' => 1200]);
         SEOTools::opengraph()->addImage('https://www.reradvocacia.com/img/engine/rradvocacia-open-graph-desktop.jpg', ['height' => 620, 'width' => 1200]);
 
-        $feed = FeedsFacade::make('http://feeds.feedburner.com/Stj-JurisprudenciaEmTeses?format=xml');
+        $feed = FeedsFacade::make('http://feeds.feedburner.com/Stj-InformativosDeJurisprudencia');
         $data = array(
             'title'     => $feed->get_title(),
             'permalink' => $feed->get_permalink(),
             'items'     => $feed->get_items(),
         );
+
         $profiles = array(
             'names'      => ["Dr. Benedito N. Rodrigues", "Dra. Claudia Amable F. Rodrigues", "Dr. Marcos Lopes Couto", "Dra. Luci Machado Pinto"],
             'activitys'  => ["Direito Previdenciário", "Direito Criminal", "Direito Ambiental", "Direito do Consumidor"],
