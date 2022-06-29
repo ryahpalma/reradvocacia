@@ -23,6 +23,6 @@ mix
     proxy: 'reradvocacia.test',
     host: 'reradvocacia.test',
     open: 'external',
-    port: '7777',
+    port: '8080',
     notify: false
 })
