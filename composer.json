@@ -17,7 +17,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "spatie/laravel-sitemap": "^5.8",
-        "willvincent/feeds": "^2.2"
+        "willvincent/feeds": "^2.3"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

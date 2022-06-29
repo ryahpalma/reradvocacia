@@ -10,7 +10,7 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <figure class="mb-6">
-                <img src="{{ asset('img/content/logo-presentation.svg')}}" alt="Apresentação" width="530px">
+                <img src="{{asset('img/content/logo-presentation.svg')}}" alt="Apresentação" width="530px">
             </figure>
             <h2 class="subtitle is-size-5-desktop is-family-primary has-text-weight-light 
             is-max-width-lg is-centered">
@@ -26,13 +26,13 @@
         </div>
     </div>
 </section>
-<section class="hero is-medium is-white">
+<section class="hero is-small is-white">
     <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title is-size-2 is-uppercase is-family-secondary has-text-weight-bold mb-6">
+        <div class="container py-5 has-text-centered">
+            <h1 class="title is-size-2 is-size-4-mobile is-uppercase is-family-secondary has-text-weight-bold mb-6">
                 Quem Somos
             </h1>
-            <h2 class="subtitle is-family-primary has-text-weight-light is-max-width-lg is-centered">
+            <h2 class="subtitle is-size-5-mobile is-family-primary has-text-weight-light is-max-width-lg is-centered">
                 Somos profissionais na área do direito, possuímos mais de 20 anos de experiência no ramo. Estamos sempre 
                 buscando oferecer aos nossos clientes soluções seguras, práticas e eficientes. O nosso escritório tem sua 
                 atuação dedicada a cinco áreas: Direito Previdenciário, Direito do Consumidor, Direito do Trabalho, 
@@ -45,10 +45,10 @@
                     <div class="card is-clickable toggle-modal" data-modal="{{$index}}">
                         <div class="card-image">
                             <figure class="image 4by3">
-                                <img src="{{ asset("img/profiles/$pictures[$index].webp") }}" alt="{{$name}}">
+                                <img src="{{asset("img/profiles/$pictures[$index].webp") }}" alt="{{$name}}">
                             </figure>
                             <div class="card-content is-overlay" style="top: auto;">
-                                <h1 class="title is-size-5 is-size-3-mobile has-text-white">
+                                <h1 class="title is-size-5 is-size-4-mobile has-text-white">
                                     {{$name}}
                                 </h1>
                                 <h2 class="subtitle is-size-7 is-size-6-mobile has-text-white">
@@ -74,7 +74,7 @@
                             <div class="columns">
                                 <div class="column is-5">
                                     <figure>
-                                        <img src="{{ asset("img/profiles/$pictures[$index].webp") }}" 
+                                        <img src="{{asset("img/profiles/$pictures[$index].webp") }}" 
                                         alt="{{$name}}">
                                     </figure>
                                 </div>
@@ -99,19 +99,17 @@
         <div class="columns box-border px-3 py-3">
             <div class="column">
                 <figure class="mb-3">
-                    <img src="{{ asset('img/icons/gavel.svg')}}" alt="Eficientes" width="60px">
+                    <img src="{{asset('img/icons/gavel.svg')}}" alt="Eficientes" width="60px">
                 </figure>
                 <h1 class="title is-size-5">Eficientes</h1>
                 <h2 class="subtitle is-size-6 has-text-dark">
                     Possuímos um serviço simpático e cortês.
                 </h2>
             </div>
-
             <span class="is-divider-vertical"></span>
-
             <div class="column">
                 <figure class="mb-3">
-                    <img src="{{ asset('img/icons/diamond.svg')}}" alt="Profissionais" width="60px">
+                    <img src="{{asset('img/icons/diamond.svg')}}" alt="Profissionais" width="60px">
                 </figure>
                 <h1 class="title is-size-5">Profissionais</h1>
                 <h2 class="subtitle is-size-6 has-text-dark">
@@ -123,19 +121,17 @@
 
             <div class="column">
                 <figure class="mb-3">
-                    <img src="{{ asset('img/icons/attention.svg')}}" alt="Comunicativos" width="60px">
+                    <img src="{{asset('img/icons/attention.svg')}}" alt="Comunicativos" width="60px">
                 </figure>
                 <h1 class="title is-size-5">Comunicativos</h1>
                 <h2 class="subtitle is-size-6 has-text-dark">
                     Sempre atentos e descritivos a cada situação.
                 </h2>
             </div>
-
             <span class="is-divider-vertical"></span>
-
             <div class="column">
                 <figure class="mb-3">
-                    <img src="{{ asset('img/icons/balance-scale-solid.svg')}}" alt="Honestos" width="60px">
+                    <img src="{{asset('img/icons/balance-scale-solid.svg')}}" alt="Honestos" width="60px">
                 </figure>
                 <h1 class="title is-size-5">Honestos</h1>
                 <h2 class="subtitle is-size-6 has-text-dark">
@@ -150,10 +146,10 @@
         <div class="container">
             <div class="columns my-5">
                 <div class="column">
-                    <h1 class="title is-size-2 is-uppercase is-family-secondary has-text-weight-bold mb-6">
+                    <h1 class="title is-size-2 is-size-4-mobile is-uppercase is-family-secondary has-text-weight-bold mb-6">
                         Áreas de Atuação
                     </h1>
-                    <h2 class="subtitle is-family-primary has-text-weight-light">
+                    <h2 class="subtitle is-size-5-mobile is-family-primary has-text-weight-light">
                         Temos profundo conhecimento, experiência e prática do 
                         funcionamento do sistema trabalhista, criminal, previdenciário, 
                         ambiental, cível e dentre outros do setor judiciário.
@@ -164,21 +160,21 @@
                                 Previdência (INSS)
                             </h1>
                             <figure>
-                                <img src="{{ asset('img/activity/previdencia.webp')}}" alt="Direito Previdenciário"
+                                <img src="{{asset('img/activity/previdencia.webp')}}" alt="Direito Previdenciário"
                                     width="80px">
                             </figure>
                         </div>
                         <div class="column is-4">
                             <h1 class="title is-family-secondary is-size-6 is-size-7-touch">Trabalhista</h1>
                             <figure>
-                                <img src="{{ asset('img/activity/trabalhista.webp')}}" alt="Direito Trabalhista"
+                                <img src="{{asset('img/activity/trabalhista.webp')}}" alt="Direito Trabalhista"
                                     width="55px">
                             </figure>
                         </div>
                         <div class="column is-4">
                             <h1 class="title is-family-secondary is-size-6 is-size-7-touch">Ambiental</h1>
                             <figure>
-                                <img src="{{ asset('img/activity/ambiental.webp')}}" alt="Direito Ambiental"
+                                <img src="{{asset('img/activity/ambiental.webp')}}" alt="Direito Ambiental"
                                     width="75px">
                             </figure>
                         </div>
@@ -187,26 +183,26 @@
                         <div class="column is-4">
                             <h1 class="title is-family-secondary is-size-6 is-size-7-touch">Cível</h1>
                             <figure>
-                                <img src="{{ asset('img/activity/civel.webp')}}" alt="Direito Cível" width="75px">
+                                <img src="{{asset('img/activity/civel.webp')}}" alt="Direito Cível" width="75px">
                             </figure>
                         </div>
                         <div class="column is-4">
                             <h1 class="title is-family-secondary is-size-6 is-size-7-touch">Criminal</h1>
                             <figure>
-                                <img src="{{ asset('img/activity/criminal.webp')}}" alt="Direito Criminal" width="65px">
+                                <img src="{{asset('img/activity/criminal.webp')}}" alt="Direito Criminal" width="65px">
                             </figure>
                         </div>
                         <div class="column is-4">
                             <h1 class="title is-family-secondary is-size-6 is-size-7-touch">Saúde</h1>
                             <figure>
-                                <img src="{{ asset('img/activity/saude.webp')}}" alt="Direito Saúde" width="65px">
+                                <img src="{{asset('img/activity/saude.webp')}}" alt="Direito Saúde" width="65px">
                             </figure>
                         </div>
                     </div>
                 </div>
                 <div class="column px-6">
                     <figure class="is-pulled-right">
-                        <img src="{{ asset('img/content/office-temis.webp')}}" alt="Escritório Temis" width="390px">
+                        <img src="{{asset('img/content/office-temis.webp')}}" alt="Escritório Temis" width="390px">
                     </figure>
                 </div>
             </div>
@@ -220,7 +216,7 @@
                 @foreach(array_slice($items, 0, 3) as $item)
                 <div class="column">
                     <p><small>{{ $item->get_date('j/m/Y') }}</p></small>
-                    <a class="title is-size-5 has-text-black" target="_blank" rel="noopener noreferrer"
+                    <a class="title is-size-5 is-size-6-mobile has-text-black" target="_blank" rel="noopener noreferrer"
                         href="{{ $item->get_permalink() }}">{{ $item->get_title() }}</a>
                 </div>
                 @endforeach
@@ -228,13 +224,13 @@
         </div>
     </div>
 </section>
-<section class="hero is-medium is-danger">
+<section class="hero is-small is-danger">
     <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title is-size-2 is-uppercase is-family-secondary has-text-weight-bold mb-6">
+        <div class="container py-5 has-text-centered">
+            <h1 class="title is-size-2 is-size-4-mobile is-uppercase is-family-secondary has-text-weight-bold mb-6">
                 O Escritório
             </h1>
-            <h2 class="subtitle is-family-primary has-text-weight-light is-max-width-lg is-centered">
+            <h2 class="subtitle is-family-primary is-size-5-mobile has-text-weight-light is-max-width-lg is-centered">
                 Nosso escritório é imperado sobre três pilares fundamentais, qualidade, confiança e ética. Procuramos 
                 mesclar a dinâmica moderna de um escritório de advocacia capaz de atender a uma série de demandas, com 
                 a atenção particular a cada caso, o que individualiza o atendimento do profissional ao cliente, otimizando 
@@ -242,15 +238,15 @@
             </h2>
             <div class="carousel">
                 <div class="carousel-cell">
-                    <img data-flickity-lazyload="{{ asset('img/content/office-1.webp') }}" 
+                    <img data-flickity-lazyload="{{asset('img/content/office-1.webp') }}" 
                     class="carousel-cell-image" alt="Escritório 1">
                 </div>
                 <div class="carousel-cell">
-                    <img data-flickity-lazyload="{{ asset('img/content/office-2.webp') }}" 
+                    <img data-flickity-lazyload="{{asset('img/content/office-2.webp') }}" 
                     class="carousel-cell-image" alt="Escritório 2">
                 </div>
                 <div class="carousel-cell">
-                    <img data-flickity-lazyload="{{ asset('img/content/office-3.webp') }}" 
+                    <img data-flickity-lazyload="{{asset('img/content/office-3.webp') }}" 
                     class="carousel-cell-image" alt="Escritório 3">
                 </div>
             </div>
@@ -260,58 +256,58 @@
 <section class="hero is-size-4 is-white">
     <div class="hero-body">
         <div class="container has-text-centered">
-            <h1 class="title is-size-2 is-uppercase is-family-secondary has-text-weight-bold mb-6">
+            <h1 class="title is-size-2 is-size-5-mobile is-uppercase is-family-secondary has-text-weight-bold mb-6">
                 Links Úteis
             </h1>
             <div class="columns">
                 <div class="column">
-                    <a href="/links?interno=tribunais-superiores" class="subtitle">
+                    <a href="/links?interno=tribunais-superiores" class="is-size-6-mobile">
                         Tribunais Superiores
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=tribunais-regionais-do-trabalho" class="subtitle">
+                    <a href="/links?interno=tribunais-regionais-do-trabalho" class="is-size-6-mobile">
                         Tribunais Regionais do Trabalho
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=tribunais-regionais-eleitorais" class="subtitle">
+                    <a href="/links?interno=tribunais-regionais-eleitorais" class="is-size-6-mobile">
                         Tribunais Regionais Eleitorais
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=ordem-dos-advogados" class="subtitle">
+                    <a href="/links?interno=ordem-dos-advogados" class="is-size-6-mobile">
                         Ordem dos Advogados do Brasil
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=legislacao" class="subtitle">
+                    <a href="/links?interno=legislacao" class="is-size-6-mobile">
                         Legislação
                     </a>
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
-                    <a href="/links?interno=tribunais-de-justica" class="subtitle">
+                    <a href="/links?interno=tribunais-de-justica" class="is-size-6-mobile">
                         Tribunais de Justiça
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=tribuinais-regionais-federais" class="subtitle">
+                    <a href="/links?interno=tribuinais-regionais-federais" class="is-size-6-mobile">
                         Tribunais Regionais Federais</a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=tribunais-administrativos" class="subtitle">
+                    <a href="/links?interno=tribunais-administrativos" class="is-size-6-mobile">
                         Tribunais Administrativos
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=orgaos-publicos" class="subtitle">
+                    <a href="/links?interno=orgaos-publicos" class="is-size-6-mobile">
                         Órgãos Públicos
                     </a>
                 </div>
                 <div class="column">
-                    <a href="/links?interno=sites-juridicos" class="subtitle">
+                    <a href="/links?interno=sites-juridicos" class="is-size-6-mobile">
                         Sites Jurídicos
                     </a>
                 </div>
