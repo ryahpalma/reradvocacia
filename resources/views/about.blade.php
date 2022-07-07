@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-<section class="hero is-small is-light">
+<section class="hero is-small is-danger">
     <div class="hero-body is-paddingless-bottom">
         <div class="container">
             <div class="columns is-touch">
