@@ -86,7 +86,7 @@
         </div>
 
         <div class="developer right">
-            <a href="https://github.com/ryahpalma" target="_blank" rel="noopener noreferrer">
+            <a href="https://ryahpalma.dev" target="_blank" rel="noopener noreferrer">
                 <img class="logo" src="{{ asset('img/engine/developer-logo.svg') }}" style="filter: invert(30%)" alt="Desenvolvedor">
             </a>
         </div>
